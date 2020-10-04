@@ -3,8 +3,8 @@ class Verstak < Formula
   homepage "https://github.com/REW1L/verstak"
   url "https://github.com/REW1L/verstak.git",
     :using => :git,
-    :tag => "0.0.7",
-    :revision => "730d35188fb8a2f389b858e3c7768fd48aa8ab1f"
+    :tag => "0.0.8",
+    :revision => "6433482735f48aeebc854c043655af25df6d18c0"
 
   depends_on "python@3"
 
