@@ -3,8 +3,8 @@ class Verstak < Formula
   homepage "https://github.com/REW1L/verstak"
   url "https://github.com/REW1L/verstak.git",
     :using => :git,
-    :tag => "0.0.14",
-    :revision => "dd2183c80c90fe5fdcb9754526b6fbfcf06f2462"
+    :tag => "0.0.15",
+    :revision => "1ace66e5d4db2a80b7893d0be3c32925639bd6fb"
 
   depends_on "python@3"
 
@@ -21,6 +21,11 @@ class Verstak < Formula
   resource "regex" do
     url "https://files.pythonhosted.org/packages/2e/e4/3447fed9ab29944333f48730ecff4dca92f0868c5b188d6ab2b2078e32c2/regex-2020.11.13.tar.gz"
     sha256 "83d6b356e116ca119db8e7c6fc2983289d87b27b3fac238cfe5dca529d884562"
+  end
+
+  resource "tqdm" do
+    url "https://files.pythonhosted.org/packages/b6/d1/39a24ca38121a29c6ba4a85fb6cbe4429448a6d1e02944625933367a872f/tqdm-4.55.2.tar.gz"
+    sha256 "86ca00c4942c3b3dc7ed31bae44cd2db38ef85ca05a7920f6a6c52ad7fcac904"
   end
 
   def install
